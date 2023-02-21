@@ -43,7 +43,7 @@ nav {
 }
 
 .infoText {
-  padding: 0 20%;
+  padding: 0 7%;
 }
 
 .infoText h1 {
@@ -54,6 +54,7 @@ nav {
   line-height: 52px;
   letter-spacing: 1px;
   text-transform: capitalize;
+  text-align: left;
 }
 
 .infoText p {
