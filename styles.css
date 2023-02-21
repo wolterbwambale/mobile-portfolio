@@ -12,6 +12,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.header-container {
+  height: 40px;
+  width: 100%;
+}
+
 nav {
   display: flex;
 }
@@ -19,10 +24,11 @@ nav {
 .logo {
   color: #6070ff;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 50px;
   font-weight: 700;
   margin-left: 15%;
   margin-top: 10px;
+  padding-top: 10px;
 }
 
 .menu-bar i {
