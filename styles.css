@@ -103,6 +103,7 @@ nav {
 
 .hero {
   margin-right: 40px;
+  display: flex;
 }
 
 .card {
@@ -223,6 +224,7 @@ nav {
 }
 
 .about-me p {
+  
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
