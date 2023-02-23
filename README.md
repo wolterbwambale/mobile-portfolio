@@ -37,7 +37,7 @@
 > 
 **Portfolio**
 Hey  it's me Bwambale Benny Wolter from Uganda<br/>
-and this is my Portfolio.
+and this is my mobile  Portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
