@@ -158,7 +158,10 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
-I would like to thank...
+Thanks to the Microverse team for the great curriculum.
+Thanks to the Code Reviewer(s) for the insightful feedbacks.
+A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+Hat tip to anyone whose code was used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,7 +170,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
