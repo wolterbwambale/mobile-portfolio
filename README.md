@@ -1,72 +1,44 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-
-
-  <h3><b>Mobile Portfolio Project</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+ - [💻 Getting Started](#getting-started)
+   - [Setup](#setup)
+   - [Prerequisites](#prerequisites)
+   - [Install](#install)
+   - [Usage](#usage)
+   - [Run tests](#run-tests)
+   - [Deployment](#Deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Mobile Portfolio Project <a name="about-project"></a>
-Hello Microverse is my first mobile  portfolio project with HtML,CSSGitHub It doesn't have that much content, but it is the first step for me to be a full stack developer. basically, It's my portfolio page.
+# 💼 Portfolio <a name="about-project"></a>
 
-
+> 
+**Portfolio**
+Hey  it's me Bwambale Benny Wolter from Uganda<br/>
+and this is my mobile  Portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project is designed with combination of front-end tools.
-
 <details>
-  <summary>Html</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Css</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
   </ul>
 </details>
 
@@ -75,25 +47,79 @@ Hello Microverse is my first mobile  portfolio project with HtML,CSSGitHub It do
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- **Linters SetUp**
+- **Follow HTML and CSS best practice**
+- **Display Text**
+- **Follow GitHub flow**
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+- Visual Studio Code.
+- Node JS.
+- Git bash.
+- GitHub Account.
+
+
+### Setup
+
+Clone this repository to your desired folder:
+Use git clone command or download ZIP folder
+
+<!--
+Example commands:
+```sh
+  cd my-folder
+  git clone git@github.com:KUBAHO3/Hello-Microverse.git
+```
+--->
+### Install
+Install this project with:
+  npm
+Example command:
+```sh
+  cd my-project
+  npm init -y
+```
+### Usage
+To run the project, execute the following command:
+npm start or live server
+Example command:
+```sh
+  GitHub Pages Server
+```
+### Run tests
+To run tests, run the following command:
+npm test
+Example command:
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+### Deployment
+It will be deployed after merge
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-👤 **Author1**
-
-- GitHub: [https://github.com/wolterbwambale
-- Twitter: [https://twitter.com/settings/profile)
-- LinkedIn: [https://www.linkedin.com/in/bwambale-benny-wolter-a9284925a/)
-
+👤 **Bwambale**
+  
+- GitHub: [Bwambale](https://github.com/wolterbwambale/mobile-portfolio)
+- LinkedIn: [Bwambale](https://www.linkedin.com/in/bwambale-benny-wolter-a9284925a/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,11 +128,9 @@ Hello Microverse is my first mobile  portfolio project with HtML,CSSGitHub It do
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **Portfolio**
-- [ ] **About**
-- [ ] **Contact**
+- [ ] **making it responsive**
+- [ ] **Design for mobile First**
+- [ ] **Making it dynamic**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +149,6 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 > Write a message to encourage readers to support your project
-
 If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -135,14 +158,13 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Thanks to the Microverse team for the great curriculum.
+Thanks to the Code Reviewer(s) for the insightful feedbacks.
+A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+Hat tip to anyone whose code was used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 
