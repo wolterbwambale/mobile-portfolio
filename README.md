@@ -1,13 +1,5 @@
 <a name="readme-top"></a>
 
-
-<div align="center">
- 
-  < <img src="assits/micro_logo.png" alt="logo" width="140"  height="auto" /> >
-  <br/>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -124,9 +116,9 @@ It will be deployed after merge
 
 <!-- AUTHORS -->
 
-👤 **Author**
- Bwambale 
-- GitHub: [https://github.com/wolterbwambale/mobile-portfolio
+👤 **Bwambale**
+  
+- GitHub: [Bwambale](https://github.com/wolterbwambale/mobile-portfolio)
 - LinkedIn: [Bwambale](https://www.linkedin.com/in/bwambale-benny-wolter-a9284925a/)
 
 
