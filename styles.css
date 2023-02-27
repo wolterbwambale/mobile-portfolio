@@ -165,8 +165,7 @@ nav {
 }
 
 .item-category {
-  display: flex;
-  flex-direction: row;
+  float: left;
 }
 
 .profesional {
