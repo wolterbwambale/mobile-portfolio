@@ -374,9 +374,8 @@ nav {
   border-top-left-radius: 50px;
   background-image: url(/img/contact-form-mobile-bg.png);
   background-repeat: no-repeat;
-  background-size: contain; 
+  background-size: contain;
   background-position: right;
-  
 }
 
 .contact-me {
