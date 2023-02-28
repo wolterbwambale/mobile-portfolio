@@ -223,6 +223,8 @@ nav {
   width: 100%;
   padding: 16px;
   border-top-right-radius: 50px;
+  padding-bottom: 115px;
+  margin-bottom: -35px;
 }
 
 .about-myself {
@@ -364,4 +366,85 @@ nav {
   margin: 18px 0;
   color: #acb7c3;
   width: 85%;
+}
+
+.contact-us {
+  margin: 0 auto;
+  background: #6070ff;
+  border-top-left-radius: 50px;
+}
+
+.contact-me {
+  padding-top: 103px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  height: 52px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+#contact-p {
+  display: flex;
+  text-align: center;
+  font-weight: 400px;
+  font-size: 20px;
+  color: #ebebff;
+  padding-top: 63px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.form-info {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+}
+
+.form-info ul li {
+  list-style: none;
+}
+
+.form-info input[type="text"],
+[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: #172b4d;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+#msg {
+  height: 150px;
+}
+
+.submit-button {
+  color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  border: 1.5px solid #396df2;
+  width: fit-content;
+  cursor: pointer;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+}
+
+.submit-button:hover {
+  background-color: #4caf50;
+  color: white;
 }
