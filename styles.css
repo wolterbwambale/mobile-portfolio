@@ -61,11 +61,12 @@ nav ul li a {
 }
 
 .container {
-  background: url("/img/bg.jpeg");
+  background: url("/img/Header\ bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeats;
   display: flex;
   align-items: center;
+  background-color: #fff;
 }
 
 .infoText {
@@ -468,10 +469,10 @@ nav ul li a {
   margin: 0 auto;
   background: #6070ff;
   border-top-left-radius: 50px;
-  background-image: url(/img/contact-form-mobile-bg.png);
+  background-image: url(/img/contact-bg.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+  background-size: 100% 100%;
+  background-position: center;
 }
 
 .contact-me {
@@ -563,8 +564,10 @@ textarea {
 
   .container {
     background: url("./img/Header\ bg.png");
-    height: 789px;
+    height: 756px;
     background-color: #fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeats;
     border-bottom-left-radius: 5%;
   }
 
@@ -653,9 +656,9 @@ textarea {
   .card {
     display: flex;
     flex-direction: row;
-    width: 1156px;
-    margin-left: 15%;
-    flex: 1 1 0;
+    flex-wrap: wrap;
+    width: auto;
+    margin-left: 9%;
   }
 
   .card button {
@@ -690,9 +693,17 @@ textarea {
 
   .second-card {
     display: flex;
-    flex-direction: row-reverse;
-    width: 1156px;
-    margin-left: 15%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    margin-left: 9%;
+  }
+
+  .first-work {
+    flex: 1;
+  }
+
+  .first-prof {
     flex: 1;
   }
 
@@ -744,7 +755,7 @@ textarea {
   }
 
   .language-header .language-heading i {
-    margin-left: 582px;
+    margin-left: 523px;
   }
 
   .tag-lang {
@@ -763,11 +774,11 @@ textarea {
   }
 
   .frame-work .second-title i {
-    margin-left: 669px;
+    margin-left: 612px;
   }
 
   .frame-work .skill-title i {
-    margin-left: 593px;
+    margin-left: 535px;
   }
 
   .about-myself {
