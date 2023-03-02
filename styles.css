@@ -19,12 +19,12 @@ body {
   background-color: #fff;
 }
 
-nav ul{
+nav ul {
   display: flex;
   list-style: none;
-  justify-content:end;
+  justify-content: end;
   padding-top: 30px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -32,15 +32,16 @@ nav ul{
   color: #344563;
   padding-right: 60px;
 }
-nav li{
+
+nav li {
   padding-top: 10px 20px;
   margin-top: -5%;
   margin-right: 50px;
 }
+
 nav ul li a {
   text-decoration: none;
 }
-
 
 .logo {
   color: #6070ff;
@@ -121,14 +122,15 @@ nav ul li a {
   padding-bottom: 20px;
 }
 
-.social-media-desk ul{
+.social-media-desk ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   padding: 10px;
   left: 24px;
-  margin-left:-5%;
+  margin-left: -5%;
 }
+
 .social-media-desk ul li {
   list-style: none;
 }
@@ -180,12 +182,14 @@ nav ul li a {
   color: #172b4d;
   text-align: left;
 }
+
 .second-card img {
   width: 100%;
   height: 220px;
   border-radius: 8px;
 }
-.second-card{
+
+.second-card {
   display: flex;
   flex-direction: column;
   padding: 0 16px;
@@ -228,6 +232,7 @@ nav ul li a {
   margin-top: 20px;
   cursor: pointer;
 }
+
 .second-card button {
   height: 40px;
   color: #396df2;
@@ -241,15 +246,16 @@ nav ul li a {
   margin-top: 20px;
   cursor: pointer;
 }
-.second-card p{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Poppins', sans-serif;
-    color: #344563;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    top: 94px;
+
+.second-card p {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  top: 94px;
 }
 
 .item-category {
@@ -544,22 +550,22 @@ textarea {
   color: white;
 }
 
-@media (min-width:768px) {
-  body{
+@media (min-width: 768px) {
+  body {
     padding: 0;
     box-sizing: border-box;
-    background:  #E5E5E5;
+    background: #e5e5e5;
   }
 
   .menu-bar i {
     display: none;
   }
+
   .container {
     background: url("./img/Header\ bg.png");
     height: 789px;
     background-color: #fff;
     border-bottom-left-radius: 5%;
-
   }
 
   .infoText {
@@ -572,16 +578,17 @@ textarea {
     padding-left: 113px;
     margin-bottom: 10px;
     padding-right: 89px;
-   
   }
-  .infoText p{
+
+  .infoText p {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     padding-left: 113px;
     padding-right: 86px;
   }
-  .infoText h2{
+
+  .infoText h2 {
     margin-left: 113px;
   }
 
@@ -589,130 +596,125 @@ textarea {
     margin-left: 93px;
   }
 
-  .social-media-desk ul{
-      margin-left: 8%;
-    }
-  .about-me button{
+  .social-media-desk ul {
+    margin-left: 8%;
+  }
+
+  .about-me button {
     margin-left: 10%;
   }
-  
-  .list-language{
-    display: flex;
-  }
-  .card h2{
+
+  .card h2 {
     font-size: 40px;
     padding: 10px;
   }
-  .second-card h2{
+
+  .second-card h2 {
     font-size: 40px;
     padding: 10px;
   }
-  
+
   .second-card button {
     margin-left: 10px;
   }
 
-  .card p{
+  .card p {
     padding-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
   }
 
-  .second-card p{
+  .second-card p {
     padding-top: 20px;
     margin-bottom: 20px;
-    margin-left: 10px
+    margin-left: 10px;
   }
 
   .tag {
     margin-bottom: 32px;
     margin-left: 10px;
   }
-  .item-tag{
+
+  .item-tag {
     font-size: 18px;
     margin-left: 10px;
   }
-  .item-can{
+
+  .item-can {
     font-size: 18px;
   }
 
-  .card  img{
+  .card img {
     display: flex;
     height: 448px;
     width: 544px;
   }
 
-  .card{
-   display: flex;
-   flex-direction: row;
-   width:1156px;
-   margin-left: 15%;
-   flex: 1 1 0;
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 1156px;
+    margin-left: 15%;
+    flex: 1 1 0;
   }
 
-  .card button{
+  .card button {
     margin-left: 10px;
   }
 
-  .card .see-project{
-    background-color: #4053FC;
-    color:#FFFFFF;
-    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  .card .see-project {
+    background-color: #4053fc;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
   }
- 
-  .second-space{
+
+  .second-space {
     flex: 1;
     order: 1;
   }
 
-  .about-me{
+  .about-me {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* flex: 1 2 1; */
   }
 
   .first {
     flex: 1;
   }
 
-  .language-header{
+  .language-header {
     flex: 2;
   }
 
-  .first-prof{
-    flex: 1;
-    flex-basis: 768px;
-  }
-
-  .second-card{
+  .second-card {
     display: flex;
     flex-direction: row-reverse;
-    width:1156px;
+    width: 1156px;
     margin-left: 15%;
     flex: 1;
   }
 
-  .second-card img{
+  .second-card img {
     display: flex;
     height: 448px;
     width: 544px;
   }
 
-  .about-me p{
+  .about-me p {
     margin-left: 10%;
   }
 
-  .language-header h3{
+  .language-header h3 {
     margin-left: 1%;
   }
 
-  .connect-header{
+  .connect-header {
     margin-left: 10%;
   }
 
-  #contact-p{
+  #contact-p {
     margin-left: 397px;
     margin-right: 418px;
     padding-top: 84px;
@@ -725,11 +727,12 @@ textarea {
   }
 
   .form-info input[type="text"],
-   [type="email"], textarea {
+  [type="email"],
+  textarea {
     border-radius: 2px;
   }
 
-  .submit-button{
+  .submit-button {
     margin-left: 37%;
     margin-top: 10px;
   }
@@ -737,33 +740,34 @@ textarea {
   .list-language {
     display: flex;
     flex-direction: row;
+    flex: 1;
   }
 
   .language-header .language-heading i {
     margin-left: 582px;
   }
+
   .tag-lang {
     padding-bottom: 95px;
     padding-top: 52px;
     align-content: center;
   }
 
-  .tag-lang img{
+  .tag-lang img {
     align-content: center;
     height: 48px;
     width: 48px;
     left: 12px;
     top: 12px;
-    border-radius: 0px;
+    border-radius: 0;
   }
 
-  .frame-work .second-title i{
+  .frame-work .second-title i {
     margin-left: 669px;
   }
 
-  .frame-work .skill-title i{
+  .frame-work .skill-title i {
     margin-left: 593px;
-   
   }
 
   .about-myself {
@@ -771,24 +775,21 @@ textarea {
   }
 
   #msg {
-    width: 574px; 
+    width: 574px;
     height: 209px;
   }
-  .list-language .title{
+
+  .list-language .title {
     color: #253858;
     margin-bottom: -78%;
-    margin-left: -67px;
     padding: 38px;
     margin-right: 48px;
     margin-left: -85px;
   }
- 
-  }
+}
 
-@media only screen and (max-width:768px) {
-  nav .nav-top{
+@media only screen and (max-width: 768px) {
+  nav .nav-top {
     display: none;
-    
   }
-  
 }
