@@ -611,12 +611,12 @@ textarea {
     font-size: 40px;
     padding: 10px;
   }
-  .contact-us{
-  background-image: url(/img/contact-bg.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right
 
+  .contact-us {
+    background-image: url(/img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
   }
 
   .second-card h2 {
