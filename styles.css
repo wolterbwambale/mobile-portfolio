@@ -566,9 +566,11 @@ textarea {
     background: url("./img/Header\ bg.png");
     height: 756px;
     background-color: #fff;
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeats;
     border-bottom-left-radius: 5%;
+
+
   }
 
   .infoText {
@@ -702,11 +704,10 @@ textarea {
   .first-work {
     flex: 1;
   }
-
+   
   .first-prof {
     flex: 1;
   }
-
   .second-card img {
     display: flex;
     height: 448px;
