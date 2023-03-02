@@ -472,6 +472,7 @@ nav ul li a {
   background-image: url(/img/contact-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: right;
 }
 
 .contact-me {
