@@ -471,8 +471,7 @@ nav ul li a {
   border-top-left-radius: 50px;
   background-image: url(/img/contact-bg.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: contain;
 }
 
 .contact-me {
@@ -569,8 +568,6 @@ textarea {
     background-size: contain;
     background-repeat: no-repeats;
     border-bottom-left-radius: 5%;
-
-
   }
 
   .infoText {
@@ -704,10 +701,11 @@ textarea {
   .first-work {
     flex: 1;
   }
-   
+
   .first-prof {
     flex: 1;
   }
+
   .second-card img {
     display: flex;
     height: 448px;
