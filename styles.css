@@ -61,9 +61,12 @@ nav ul li a {
 }
 
 .container {
-  background: url("/img/Header\ bg.png");
+  margin: 0 auto;
+  background: url("/img/header-shapes\ mobile.png");
+  border-bottom-left-radius: 5%;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-repeat: no-repeats;
+  background-position:center;
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -469,7 +472,7 @@ nav ul li a {
   margin: 0 auto;
   background: #6070ff;
   border-top-left-radius: 50px;
-  background-image: url(/img/contact-bg.png);
+  background-image: url(/img/contact-form-mobile-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
