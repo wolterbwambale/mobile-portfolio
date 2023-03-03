@@ -66,7 +66,7 @@ nav ul li a {
   border-bottom-left-radius: 5%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position:center;
+  background-position: center;
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -114,6 +114,14 @@ nav ul li a {
   left: 24px;
 }
 
+.social-media-desk a i {
+  color: #505f79;
+  font-size: 24px;
+  padding: 10px;
+  align-items: stretch;
+  padding-bottom: 20px;
+}
+
 .social-media ul li {
   list-style: none;
 }
@@ -124,6 +132,36 @@ nav ul li a {
   padding: 10px;
   align-items: stretch;
   padding-bottom: 20px;
+}
+
+.frame-work .second-title i {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  color: #acb7c3;
+  margin-left: 207px;
+}
+
+.language-header .language-heading i {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  color: #acb7c3;
+  margin-left: 139px;
+}
+
+.frame-work .skill-title i {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  color: #acb7c3;
+  margin-left: 135px;
+}
+
+.social-media a i:hover {
+  transform: scale(0.9);
+  transition: transform 0.4s ease-in-out;
+  color: #396df2;
 }
 
 .social-media-desk ul {
@@ -137,14 +175,6 @@ nav ul li a {
 
 .social-media-desk ul li {
   list-style: none;
-}
-
-.social-media-desk a i {
-  color: #505f79;
-  font-size: 24px;
-  padding: 10px;
-  align-items: stretch;
-  padding-bottom: 20px;
 }
 
 .hero {
@@ -380,14 +410,6 @@ nav ul li a {
   padding: 10px;
 }
 
-.language-header .language-heading i {
-  font-weight: 500;
-  font-style: normal;
-  font-size: 25px;
-  color: #acb7c3;
-  margin-left: 139px;
-}
-
 .list-language {
   display: flex;
   flex-direction: column;
@@ -444,22 +466,6 @@ nav ul li a {
   color: #000;
   line-height: 47px;
   font-family: 'Poppins', sans-serif;
-}
-
-.frame-work .skill-title i {
-  font-weight: 500;
-  font-style: normal;
-  font-size: 25px;
-  color: #acb7c3;
-  margin-left: 135px;
-}
-
-.frame-work .second-title i {
-  font-weight: 500;
-  font-style: normal;
-  font-size: 25px;
-  color: #acb7c3;
-  margin-left: 207px;
 }
 
 .line {
@@ -561,6 +567,10 @@ textarea {
     background: #e5e5e5;
   }
 
+  .logo img {
+    animation: animLogo 2s linear;
+  }
+
   .menu-bar i {
     display: none;
   }
@@ -584,6 +594,9 @@ textarea {
     padding-left: 113px;
     margin-bottom: 10px;
     padding-right: 89px;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
   }
 
   .infoText p {
@@ -592,6 +605,11 @@ textarea {
     line-height: 28px;
     padding-left: 113px;
     padding-right: 86px;
+    animation: fadeIn 1s ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    transform: translateY(200px);
+    opacity: 0;
   }
 
   .infoText h2 {
@@ -606,8 +624,28 @@ textarea {
     margin-left: 8%;
   }
 
+  .second-card button {
+    margin-left: 10px;
+  }
+
   .about-me button {
     margin-left: 10%;
+  }
+
+  .card button {
+    margin-left: 10px;
+  }
+
+  .second-card button:hover {
+    transform: scale(1.1);
+    transition: 00.4s ease-in-out;
+    background-color: #396df2;
+    color: #fff;
+  }
+
+  .about-me button:hover {
+    transform: scale(1.2);
+    transition: transform 0.4s ease-in-out;
   }
 
   .card h2 {
@@ -625,10 +663,6 @@ textarea {
   .second-card h2 {
     font-size: 40px;
     padding: 10px;
-  }
-
-  .second-card button {
-    margin-left: 10px;
   }
 
   .card p {
@@ -657,10 +691,30 @@ textarea {
     font-size: 18px;
   }
 
+  .tag-lang img {
+    align-content: center;
+    height: 48px;
+    width: 48px;
+    left: 12px;
+    top: 12px;
+    border-radius: 0;
+  }
+
+  .second-card img {
+    display: flex;
+    height: 448px;
+    width: 544px;
+  }
+
   .card img {
     display: flex;
     height: 448px;
     width: 544px;
+  }
+
+  .card img:hover {
+    transform: scaleY(1.1);
+    transition: 0.4s ease-in-out;
   }
 
   .card {
@@ -671,8 +725,9 @@ textarea {
     margin-left: 9%;
   }
 
-  .card button {
-    margin-left: 10px;
+  .card button:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
   }
 
   .card .see-project {
@@ -717,10 +772,9 @@ textarea {
     flex: 1;
   }
 
-  .second-card img {
-    display: flex;
-    height: 448px;
-    width: 544px;
+  .second-card img:hover {
+    transform: scaleY(1.1);
+    transition: 0.4s ease-in-out;
   }
 
   .about-me p {
@@ -774,15 +828,6 @@ textarea {
     align-content: center;
   }
 
-  .tag-lang img {
-    align-content: center;
-    height: 48px;
-    width: 48px;
-    left: 12px;
-    top: 12px;
-    border-radius: 0;
-  }
-
   .frame-work .second-title i {
     margin-left: 612px;
   }
@@ -806,6 +851,32 @@ textarea {
     padding: 38px;
     margin-right: 48px;
     margin-left: -85px;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      transform: translateY(200px);
+      opacity: 0;
+    }
+
+    50% {
+      transform: scaleY(1.2);
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes animLogo {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }
 
