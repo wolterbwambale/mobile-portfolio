@@ -5,10 +5,11 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
+   [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
- - [💻 Getting Started](#getting-started)
+    - [🚀 Live Demo](#live-demo)
+   - [💻 Getting Started](#getting-started)
    - [Setup](#setup)
    - [Prerequisites](#prerequisites)
    - [Install](#install)
@@ -24,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 💼 Portfolio <a name="about-project"></a>
+# 💼 Wolter's Portfolio <a name="about-project"></a>
 
 > 
 **Portfolio**
@@ -51,11 +52,16 @@ and this is my mobile  Portfolio.
 - **Follow HTML and CSS best practice**
 - **Display Text**
 - **Follow GitHub flow**
+- **[clean ui]**
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+## [🚀Live Demo](https://wolterbwambale.github.io/mobile-portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
