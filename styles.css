@@ -114,13 +114,6 @@ nav ul li a {
   left: 24px;
 }
 
-.social-media-desk a i {
-  color: #505f79;
-  font-size: 24px;
-  padding: 10px;
-  align-items: stretch;
-  padding-bottom: 20px;
-}
 
 .social-media ul li {
   list-style: none;
@@ -141,6 +134,8 @@ nav ul li a {
   color: #acb7c3;
   margin-left: 207px;
 }
+
+
 
 .language-header .language-heading i {
   font-weight: 500;
@@ -175,6 +170,14 @@ nav ul li a {
 
 .social-media-desk ul li {
   list-style: none;
+}
+.social-media-desk a i {
+  color: #505f79;
+  font-size: 24px;
+  padding: 10px;
+  padding-bottom: 10px;
+  align-items: stretch;
+  padding-bottom: 20px;
 }
 
 .hero {
@@ -500,7 +503,7 @@ nav ul li a {
   text-align: center;
   font-weight: 400px;
   font-size: 20px;
-  color: #ebebff;
+  color: #fff;
   padding-top: 63px;
   margin-left: 25px;
   margin-right: 25px;
@@ -868,15 +871,15 @@ textarea {
       opacity: 1;
     }
   }
-}
 
-@keyframes animLogo {
-  0% {
-    transform: rotate(0deg);
-  }
+  @keyframes animLogo {
+    0% {
+      transform: rotate(0deg);
+    }
 
-  100% {
-    transform: rotate(360deg);
+    100% {
+      transform: rotate(360deg);
+    }
   }
 }
 
