@@ -72,6 +72,12 @@ nav ul li a {
   background-color: #fff;
 }
 
+label {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
 .infoText {
   padding: 0 7%;
 }
@@ -98,7 +104,7 @@ nav ul li a {
 
 .infoText h2 {
   color: #7f8cff;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 24px;
   text-transform: uppercase;
@@ -114,7 +120,7 @@ nav ul li a {
   left: 24px;
 }
 
-.social-media-desk a i {
+.social-media-desk i {
   color: #505f79;
   font-size: 24px;
   padding: 10px;
@@ -158,12 +164,6 @@ nav ul li a {
   margin-left: 135px;
 }
 
-.social-media a i:hover {
-  transform: scale(0.9);
-  transition: transform 0.4s ease-in-out;
-  color: #396df2;
-}
-
 .social-media-desk ul {
   display: flex;
   flex-wrap: wrap;
@@ -171,6 +171,12 @@ nav ul li a {
   padding: 10px;
   left: 24px;
   margin-left: -5%;
+}
+
+.social-media a i:hover {
+  transform: scale(0.9);
+  transition: transform 0.4s ease-in-out;
+  color: #396df2;
 }
 
 .social-media-desk ul li {
@@ -308,7 +314,7 @@ nav ul li a {
   flex-wrap: wrap;
   list-style: none;
   padding-right: 15px;
-  color: #7a869a;
+  color: #293d3d;
 }
 
 .item-can {
@@ -337,11 +343,11 @@ nav ul li a {
   border-radius: 8px;
   color: #6070ff;
   font-weight: 500px;
-  font-size: 12px;
   background-color: #ebebff;
   padding: 8px 12px;
   margin-right: 10px;
   margin-top: 10px;
+  font-size: 18px;
 }
 
 .about-me {
@@ -382,7 +388,7 @@ nav ul li a {
   color: #7f8cff;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 24px;
 }
 
@@ -428,7 +434,7 @@ nav ul li a {
   font-style: normal;
   font-weight: 500;
   text-align: right;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 40px;
   align-items: center;
   color: #253858;
@@ -499,8 +505,8 @@ nav ul li a {
   display: flex;
   text-align: center;
   font-weight: 400px;
-  font-size: 20px;
-  color: #ebebff;
+  font-size: 25px;
+  color: #fff;
   padding-top: 63px;
   margin-left: 25px;
   margin-right: 25px;
@@ -731,8 +737,8 @@ textarea {
   }
 
   .card .see-project {
-    background-color: #4053fc;
-    color: #fff;
+    background-color: white;
+    color: #4053fc;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
   }
@@ -868,15 +874,15 @@ textarea {
       opacity: 1;
     }
   }
-}
 
-@keyframes animLogo {
-  0% {
-    transform: rotate(0deg);
-  }
+  @keyframes animLogo {
+    0% {
+      transform: rotate(0deg);
+    }
 
-  100% {
-    transform: rotate(360deg);
+    100% {
+      transform: rotate(360deg);
+    }
   }
 }
 
