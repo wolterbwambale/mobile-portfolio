@@ -72,6 +72,12 @@ nav ul li a {
   background-color: #fff;
 }
 
+label {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
 .infoText {
   padding: 0 7%;
 }
@@ -98,7 +104,7 @@ nav ul li a {
 
 .infoText h2 {
   color: #7f8cff;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 24px;
   text-transform: uppercase;
@@ -337,11 +343,11 @@ nav ul li a {
   border-radius: 8px;
   color: #6070ff;
   font-weight: 500px;
-  font-size: 12px;
   background-color: #ebebff;
   padding: 8px 12px;
   margin-right: 10px;
   margin-top: 10px;
+  font-size: 18px;
 }
 
 .about-me {
@@ -382,7 +388,7 @@ nav ul li a {
   color: #7f8cff;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 24px;
 }
 
@@ -428,7 +434,7 @@ nav ul li a {
   font-style: normal;
   font-weight: 500;
   text-align: right;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 40px;
   align-items: center;
   color: #253858;
@@ -499,7 +505,7 @@ nav ul li a {
   display: flex;
   text-align: center;
   font-weight: 400px;
-  font-size: 20px;
+  font-size: 25px;
   color: #fff;
   padding-top: 63px;
   margin-left: 25px;
