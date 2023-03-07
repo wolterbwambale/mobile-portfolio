@@ -114,6 +114,13 @@ nav ul li a {
   left: 24px;
 }
 
+.social-media-desk i {
+  color: #505f79;
+  font-size: 24px;
+  padding: 10px;
+  align-items: stretch;
+  padding-bottom: 20px;
+}
 
 .social-media ul li {
   list-style: none;
@@ -135,8 +142,6 @@ nav ul li a {
   margin-left: 207px;
 }
 
-
-
 .language-header .language-heading i {
   font-weight: 500;
   font-style: normal;
@@ -153,12 +158,6 @@ nav ul li a {
   margin-left: 135px;
 }
 
-.social-media a i:hover {
-  transform: scale(0.9);
-  transition: transform 0.4s ease-in-out;
-  color: #396df2;
-}
-
 .social-media-desk ul {
   display: flex;
   flex-wrap: wrap;
@@ -168,16 +167,14 @@ nav ul li a {
   margin-left: -5%;
 }
 
+.social-media a i:hover {
+  transform: scale(0.9);
+  transition: transform 0.4s ease-in-out;
+  color: #396df2;
+}
+
 .social-media-desk ul li {
   list-style: none;
-}
-.social-media-desk a i {
-  color: #505f79;
-  font-size: 24px;
-  padding: 10px;
-  padding-bottom: 10px;
-  align-items: stretch;
-  padding-bottom: 20px;
 }
 
 .hero {
