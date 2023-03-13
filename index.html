@@ -10,17 +10,28 @@
     <title>my mobile porifolio</title>
 </head>
 <body>
+    <a name="portfolio"></a>
     <section class="myfolio-section">
     <header class="header-container fixed-top">
             
             <a href="#" class="logo"><img src="./img/My Logo.png" alt="my logo"></a>
             <nav>
-               <div class="menu-bar"><i class="fa fa-bars fa-2x"></i></div>
-               <ul class="nav-top">
-                <li><a href="#">Portoflio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+               <ul class="nav-menu">
+                <li class="nav-list">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-list">
+                    <a href="#about-me" class="nav-link">About</a>
+                </li>
+                <li class="nav-list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
                </ul>
+               <div class="hamburger">
+                <span class="bar" ></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+               </div> 
             </nav>
             </header>
         <main class="container">
@@ -147,6 +158,7 @@
 </section>
 
 <!--about-me section-->
+<a name="about-me"></a>
 <section class="about-me">
     <div class="first">
     <h1 class="about-myself">About<br>
@@ -192,6 +204,7 @@
      </div>
     </section>
     <!--contact-us-form-->
+    <a name="contact"></a>
     <section class="contact-us">
         <h2 class="contact-me">Contact me</h2>
         <p id="contact-p">If you have an application you are interested in developing,
@@ -213,11 +226,12 @@
                         <label for="full name" id="mgs-label">Message</label>
                     </li>
                     <div class="btn">
-                        <button class="submit-button" type="submit">Get in Touch</button>
+                        <button class="submit-button" type="submit" >Get in Touch</button>
                     </div>
                 </ul>
             </form>
     </section>
 </div> 
+<script src="main.js"></script>
 </body>
 </html>

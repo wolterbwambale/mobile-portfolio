@@ -12,6 +12,16 @@ body {
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
 }
+.bar {
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin: 5px auto;
+  border-radius: 5px;
+  -webkit-transition: all 0.1s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   background-color:#396df2;
+}
 
 .header-container {
   height: 45px;
@@ -53,11 +63,14 @@ nav ul li a {
   padding-top: 10px;
 }
 
-.menu-bar i {
-  position: absolute;
-  left: 80%;
-  top: 1%;
+.hamburger{
+  display: none;
+  cursor: pointer;
+  left: 87%;
   color: #6070ff;
+  top: 0.5%;
+ 
+  
 }
 
 .container {
@@ -314,7 +327,7 @@ label {
   flex-wrap: wrap;
   list-style: none;
   padding-right: 15px;
-  color: #293d3d;
+  color: #7a869a;
 }
 
 .item-can {
@@ -341,7 +354,7 @@ label {
   align-items: center;
   background: #ebebff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #051EFF;
   font-weight: 500px;
   background-color: #ebebff;
   padding: 8px 12px;
@@ -577,10 +590,6 @@ textarea {
     animation: animLogo 2s linear;
   }
 
-  .menu-bar i {
-    display: none;
-  }
-
   .container {
     background: url("./img/Header\ bg.png");
     height: 756px;
@@ -737,8 +746,8 @@ textarea {
   }
 
   .card .see-project {
-    background-color: white;
-    color: #4053fc;
+    background-color: #4053fc;
+    color: #fff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
   }
@@ -883,11 +892,69 @@ textarea {
     100% {
       transform: rotate(360deg);
     }
+    
   }
+  /* .hamburger{
+    display: block;
+  } */
 }
 
 @media only screen and (max-width: 768px) {
-  nav .nav-top {
-    display: none;
+  .hamburger{
+    display: block;
+    position: absolute;
   }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(10px)rotate(45deg);
+    background-color: #fff;
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-10px)rotate(-45deg);
+    background-color: #fff;
+  }
+
+  nav .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    gap: 0;
+    flex-direction: column;
+    transition: all 0.3s;
+    background:#6070FF;
+    mix-blend-mode: multiply;
+    text-align: left;
+    width: 100%;
+    padding-top: 52px;
+    padding-bottom: 344px;
+    
+  }
+  .nav-list{
+    margin: 16px 10px;
+    height: 24px;
+    left: 0px;
+    right: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+  
+
+  }
+  .nav-menu.active{
+    left: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .nav-link {
+    color: white;
+    margin-left: 30px;
+    
+  }
+  
+
 }
