@@ -131,6 +131,7 @@ It will be deployed after merge
 - [ ] **making it responsive**
 - [ ] **Design for mobile First**
 - [ ] **Making it dynamic**
+ - [ ] **Adding popup window**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
