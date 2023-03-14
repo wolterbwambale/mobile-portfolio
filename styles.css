@@ -13,8 +13,14 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.nav-bar {
+  z-index: 10000;
+  top: 0;
+  position: sticky;
+}
+
 .header-container {
-  height: 45px;
+  /* height: 45px; */
   width: 100%;
   background-color: #fff;
 }
@@ -23,19 +29,17 @@ nav ul {
   display: flex;
   list-style: none;
   justify-content: end;
-  padding-top: 30px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 31px;
   color: #344563;
   padding-right: 60px;
 }
 
 nav li {
-  padding-top: 10px 20px;
-  margin-top: -5%;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-right: 50px;
 }
 
@@ -45,19 +49,36 @@ nav ul li a {
 
 .logo {
   color: #6070ff;
-  font-size: 18px;
+  font-size: 32px;
   line-height: 50px;
   font-weight: 700;
-  margin-left: 15%;
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-left: 11%;
+  margin-top: 50px;
+  padding-top: 10%;
 }
 
 .menu-bar i {
   position: absolute;
-  left: 80%;
+  left: 87%;
   top: 1%;
   color: #6070ff;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.nav-menu .close-btn {
+  font-size: 2rem;
+  color: white;
+  margin: -10px 3px;
+  display: none;
+  cursor: pointer;
+}
+
+.nav-bar .nav-menu .close-btn {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
 }
 
 .container {
@@ -256,13 +277,13 @@ label {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  top: 94px;
+  top: 92px;
 }
 
 .card button {
   height: 40px;
   color: #396df2;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 17px;
   background-color: #fff;
   border-radius: 8px;
@@ -276,7 +297,7 @@ label {
 .second-card button {
   height: 40px;
   color: #396df2;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 17px;
   background-color: #fff;
   border-radius: 8px;
@@ -314,7 +335,7 @@ label {
   flex-wrap: wrap;
   list-style: none;
   padding-right: 15px;
-  color: #293d3d;
+  color: #7a869a;
 }
 
 .item-can {
@@ -341,8 +362,8 @@ label {
   align-items: center;
   background: #ebebff;
   border-radius: 8px;
-  color: #6070ff;
-  font-weight: 500px;
+  color: #051eff;
+  font-weight: 500;
   background-color: #ebebff;
   padding: 8px 12px;
   margin-right: 10px;
@@ -394,7 +415,7 @@ label {
 
 .about-me button {
   color: #396df2;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 17px;
   background-color: #fff;
   border-radius: 8px;
@@ -504,7 +525,7 @@ label {
 #contact-p {
   display: flex;
   text-align: center;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 25px;
   color: #fff;
   padding-top: 63px;
@@ -586,7 +607,7 @@ textarea {
     height: 756px;
     background-color: #fff;
     background-size: contain;
-    background-repeat: no-repeats;
+    background-repeat: no-repeat;
     border-bottom-left-radius: 5%;
   }
 
@@ -737,8 +758,8 @@ textarea {
   }
 
   .card .see-project {
-    background-color: white;
-    color: #4053fc;
+    background-color: #4053fc;
+    color: #fff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
   }
@@ -887,7 +908,41 @@ textarea {
 }
 
 @media only screen and (max-width: 768px) {
-  nav .nav-top {
+  .nav-menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    right: 0;
+    top: 0;
+    font-size: 32px;
+    padding: 100px 0;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    background-color: rgb(13 35 235 / 77.4%);
+    transition: right 0.3s ease;
     display: none;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+  }
+
+  .nav-bar .menu-bar {
+    display: block;
+  }
+
+  .nav-menu li a {
+    color: #fff;
+  }
+
+  .nav-menu li a:hover {
+    color: #ccc;
+  }
+
+  .nav-menu .item {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 32px;
   }
 }
