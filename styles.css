@@ -12,7 +12,7 @@ small {
 }
 
 .hex {
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 a {
@@ -182,15 +182,15 @@ a:hover {
   }
 
   .info-descrption {
-  color: #344563;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 28px;
-  font-style: normal;
-  font-family: 'Poppins', sans-serif;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
   }
 
-  .infoText con-h2 {
+  .infoText .connect {
     color: #7f8cff;
     font-size: 22px;
     font-weight: 500;
@@ -200,7 +200,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
   }
 
-   .social-media {
+  .social-media {
     display: flex;
     width: 170.17px;
     height: 20px;
@@ -211,7 +211,7 @@ a:hover {
     list-style-type: none;
     text-align: left;
     padding-left: initial;
-  } 
+  }
 
   .social-media a i {
     color: #505f79;
@@ -227,7 +227,7 @@ a:hover {
   .grid-items {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -488,7 +488,7 @@ a:hover {
     height: 66.72px;
     background: #f7f7f9;
     border-radius: 8px;
-    margin: 12px initial;
+    margin: 12px;
     padding: 9px;
     align-items: center;
   }
@@ -606,7 +606,7 @@ a:hover {
     top: 60px;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -689,7 +689,7 @@ a:hover {
 
   .p-project-img {
     border-radius: 8px;
-    width: auto;
+    width: 100%;
   }
 
   .p-text {
@@ -841,7 +841,7 @@ a:hover {
     display: flex;
     align-items: center;
     color: #172b4d;
-    margin: initial;  
+    margin: initial;
   }
 
   .info-descrption {
@@ -880,7 +880,7 @@ a:hover {
 
   .grid-items {
     display: flex;
-    align-items: left;
+    align-items: flex-start;
     gap: 46px;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -1086,19 +1086,18 @@ a:hover {
   }
 
   .about {
-      font-family: 'Poppins', sans-serif;
-      color: #172b4d;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 52px;
-      margin-bottom: 1px;
+    font-family: 'Poppins', sans-serif;
+    color: #172b4d;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 1px;
   }
 
   .about-myself .info-descrption {
     margin-top: initial;
     margin-bottom: initial;
-    
   }
 
   .about-myself .connect {
@@ -1225,7 +1224,7 @@ a:hover {
     background-image: url('images/contact-form-background-shapes.png');
     background-repeat: no-repeat;
     background-position: 100%;
-    background-size:contain;
+    background-size: contain;
     text-align: center;
   }
 
@@ -1277,7 +1276,7 @@ a:hover {
     line-height: 24px;
     color: #b3bac5;
     padding: 15px 38px 15px 16px;
-  height: 238px;
+    height: 238px;
     margin-bottom: 27px;
     resize: none;
   }
@@ -1302,7 +1301,7 @@ a:hover {
     width: 75%;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: stretch;
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -1467,62 +1466,40 @@ a:hover {
     text-align: center;
     color: #396df2;
   }
+
   .form-info {
     display: flex;
     justify-content: center;
   }
 
-.form-info input[type="text"],
-[type="email"],
-textarea {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  color: #172b4d;
-  box-sizing: border-box;
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-}
-.form-info input[type="text"],
-[type="email"],
-textarea {
-  border-radius: 2px;
-}
-
-#msg {
-  width: 574px;
-  height: 209px;
-}
-
-@keyframes fadeIn {
-  0% {
-    transform: translateY(200px);
-    opacity: 0;
+  #msg {
+    width: 574px;
+    height: 209px;
   }
 
-  50% {
-    transform: scaleY(1.2);
+  @keyframes fadeIn {
+    0% {
+      transform: translateY(200px);
+      opacity: 0;
+    }
+
+    50% {
+      transform: scaleY(1.2);
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
+  @keyframes animLogo {
+    0% {
+      transform: rotate(0deg);
+    }
 
-@keyframes animLogo {
-  0% {
-    transform: rotate(0deg);
+    100% {
+      transform: rotate(360deg);
+    }
   }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
 }

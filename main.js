@@ -77,9 +77,12 @@ const projects = [
   },
 ];
 const works = document.querySelector('.works');
-
+// eslint-disable-next-line no-plusplus
 for (let index = 0; index < projects.length; index++) {
-  const { name, description, image, technologies } = projects[index];
+  // eslint-disable-next-line object-curly-newline
+  const {
+    name, description, image, technologies,
+  } = projects[index];
   const pSection = document.createElement('section');
   const pClasses = document.createAttribute('class');
   let classReverse = '';
@@ -118,6 +121,7 @@ for (let index = 0; index < projects.length; index++) {
             </div>`;
   const text = `<p>${description}</p>`;
   let li = '';
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < 3; i++) {
     li += `<li> ${technologies[i]} </li>`;
   }
@@ -172,6 +176,7 @@ seeProject.forEach((element) => {
         alt="Project-1"
       />`;
     let li = '';
+    // eslint-disable-next-line no-plusplus
     for (let i = 0; i < technologies.length; i++) {
       if (i >= 3) {
         li += `<li class="categories-li mibele-hidden"> ${technologies[i]} </li>`;
