@@ -35,6 +35,7 @@ and this is my mobile  Portfolio.
 
 ### Tech Stack <a name="tech-stack"></a>
 
+
 <details>
   <summary>Client</summary>
   <ul>
