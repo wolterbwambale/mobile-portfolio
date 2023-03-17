@@ -138,6 +138,7 @@ It will be deployed after merge
 - [ ] **Design for mobile First**
 - [ ] **Making it dynamic**
  - [ ] **Adding popup window**
+ - [ ] **Validating contact form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
