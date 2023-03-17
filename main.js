@@ -17,42 +17,6 @@ navLinks.forEach((element) => {
 });
 /* End of mobile menu */
 
-function showMessage(message) {
-    const msg = document.querySelector('small');
-    msg.innerText = message;
-  }
-
-  function showError(message) {
-    showMessage(message);
-  }
-
-  function showSuccess() {
-    showMessage('');
-  }
-
-  function validateEmail(input, invalidMsg) {
-    const emailRegex = /[A-Z]/;
-
-    const email = input.value.trim();
-    if (emailRegex.test(email)) {
-      return showError(invalidMsg);
-    }
-    return true;
-  }
-
-  const EMAIL_INVALID = 'Please enter your email address in lower case';
-  const form = document.querySelector('form');
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const email = document.querySelector("input[type='email']");
-    const emailValid = validateEmail(email, EMAIL_INVALID);
-    if (emailValid) {
-      showSuccess();
-      form.submit();
-    }
-  });
-
-
 /*  Begin projects */
 const projects = [
   {
@@ -247,26 +211,37 @@ seeProject.forEach((element) => {
   });
 });
 
-window.addEventListener('load', () => {
-  mainContainer.innerHTML = worksContainer();
-  return mainContainer;
-});
-popupFunc(null);
-closePopupFunc(null);
+function showMessage(message) {
+  const msg = document.querySelector('small');
+  msg.innerText = message;
+}
 
-const formValidation = document.querySelector('#inputcontactbox');
-const emailInputValidation = document.querySelector('#email');
-const entryTextMessage = document.querySelector('#inputmessage');
+function showError(message) {
+  showMessage(message);
+}
 
-formValidation.addEventListener('submit', (event) => {
-  const strEmailInput = emailInputValidation.value;
+function showSuccess() {
+  showMessage('');
+}
 
-  if (/[A-Z]/.test(strEmailInput)) {
-    entryTextMessage.innerHTML = 'Your form is not sent because the email address is not correct; Email must contain only lowercase character.';
-    entryTextMessage.style.fontSize = '16px';
-    entryTextMessage.style.fontStyle = 'italic';
-    entryTextMessage.style.color = 'yellow';
+function validateEmail(input, invalidMsg) {
+  const emailRegex = /[A-Z]/;
 
-    event.preventDefault();
+  const email = input.value.trim();
+  if (emailRegex.test(email)) {
+    return showError(invalidMsg);
+  }
+  return true;
+}
+
+const EMAIL_INVALID = 'Please enter your email address in lower case';
+const form = document.querySelector('form');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const email = document.querySelector("input[type='email']");
+  const emailValid = validateEmail(email, EMAIL_INVALID);
+  if (emailValid) {
+    showSuccess();
+    form.submit();
   }
 });
