@@ -139,7 +139,7 @@ It will be deployed after merge
 - [ ] **Making it dynamic**
  - [ ] **Adding popup window**
  - [ ] **Validating contact form**
- - [ ] **Local Storage** 
+ - [ ] **Local-Storage** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
