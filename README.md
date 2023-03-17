@@ -26,7 +26,6 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 💼 Wolter's Portfolio <a name="about-project"></a>
-
 > 
 **Portfolio**
 Hey  it's me Bwambale Benny Wolter from Uganda<br/>
@@ -138,6 +137,7 @@ It will be deployed after merge
 - [ ] **Design for mobile First**
 - [ ] **Making it dynamic**
  - [ ] **Adding popup window**
+ - [ ] **Validating contact form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,10 +147,10 @@ It will be deployed after merge
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+[issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
