@@ -105,6 +105,7 @@ for (let index = 0; index < projects.length; index++) {
   imgAlt.value = `Project-${index + 1}`;
   img.setAttributeNode(imgAlt);
   pSection.appendChild(img);
+  // creating detail div
   const cdiv = document.createElement('div');
   const cdivClass = document.createAttribute('class');
   cdivClass.value = 'details';
