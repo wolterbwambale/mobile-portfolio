@@ -261,6 +261,10 @@ a:hover {
     padding: initial;
   }
 
+  form ul li {
+    list-style: none;
+  }
+
   .details ul {
     margin: initial;
     padding: initial;
@@ -561,38 +565,63 @@ a:hover {
     text-align: center;
   }
 
-  .contact-me form {
-    display: flex;
-    flex-direction: column;
+  .contact-me-h .heading {
+    padding-top: 103px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    height: 52px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
   }
 
-  .contact-me input {
-    height: 18px;
+  .contact-me-h .cont-p {
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    color: #fff;
+    padding-top: 63px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  form {
+    margin: auto;
+    padding: 24px;
+  }
+
+  form input[type="text"],
+  [type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    color: #172b4d;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    align-items: center;
-    color: #172b4d;
-    padding: 15px 38px 15px 16px;
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    margin-top: 20px;
   }
 
-  .contact-me textarea {
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #b3bac5;
-    padding: 15px 38px 15px 16px;
-    height: 170px;
-    margin-top: 18px;
-    margin-bottom: 22px;
-    resize: none;
+  #message {
+    height: 158px;
+  }
+
+  label {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .btn-submit {
+    color: #396df2;
+    cursor: pointer;
   }
 
   .main {
@@ -804,6 +833,10 @@ a:hover {
     gap: 10px;
   }
 
+  form ul li {
+    list-style: none;
+  }
+
   .nav-menues a {
     color: #344563;
     font-weight: 500;
@@ -876,6 +909,38 @@ a:hover {
     display: grid;
     grid-template-columns: auto;
     margin-top: 142px;
+  }
+
+  .see-project button {
+    padding: 12px;
+    width: 124px;
+    height: 48px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    background-color: #fff;
+    border: 1px solid #6070ff;
+  }
+
+  .contact-me button {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #3c4bce;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 60%;
+    border-radius: 4px;
+    width: fit-content;
+    background-color: #fff;
+  }
+
+  .contact-me button:hover {
+    color: #fff;
+    background: rgba(6, 107, 6, 0.843);
   }
 
   .grid-items {
@@ -1029,33 +1094,6 @@ a:hover {
     align-items: center;
     margin-top: 40px;
     margin-bottom: 116px;
-  }
-
-  .contact-me button {
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #3c4bce;
-    height: 48px;
-    background: #fff;
-    border-radius: 8px;
-    padding: 12px;
-    border: 1px solid #6070ff;
-    cursor: pointer;
-  }
-
-  .see-project button {
-    padding: 12px;
-    width: 124px;
-    height: 48px;
-    border-radius: 8px;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    background-color: #fff;
-    border: 1px solid #6070ff;
   }
 
   .about-myself .see-project button {
@@ -1217,75 +1255,78 @@ a:hover {
   }
 
   .contact-me {
-    background-color: #6070ff;
-    display: flex;
-    flex-direction: column;
-    border-top-left-radius: 100px;
-    margin-top: -114px;
-    background-image: url('images/contact-form-background-shapes.png');
+    margin: 0 auto;
+    background: #6070ff;
+    border-top-left-radius: 50px;
+    background-image: url("./images/contact-form-background-shapes.png");
     background-repeat: no-repeat;
-    background-position: 100%;
     background-size: contain;
-    text-align: center;
-  }
-
-  .contact-me > * {
-    padding-left: 22.2vw;
-    padding-right: 22.2vw;
-  }
-
-  .c-heading {
+    background-position: right;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    gap: 12px;
+    margin-top: -10%;
   }
 
-  .contact-me h2 {
+  .contact-me-h .heading {
+    padding-top: 103px;
+    text-align: center;
     font-weight: 700;
     font-size: 40px;
-    line-height: 52px;
-    margin-top: 142px;
+    height: 52px;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
-    text-align: center;
-    margin-bottom: initial;
   }
 
-  .contact-me form {
+  .contact-me-h .cont-p {
     display: flex;
-    flex-direction: column;
-  }
-
-  .contact-me input {
+    text-align: center;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    align-items: center;
-    color: #172b4d;
-    padding: 15px 38px 15px 16px;
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 2px;
-    margin-bottom: 27px;
+    font-size: 26px;
+    color: #fff;
+    padding-top: 45px;
+    margin-left: 468px;
+    margin-right: 354px;
   }
 
-  .contact-me textarea {
+  form {
+    margin: auto;
+    padding: 24px;
+  }
+
+  form input[type="text"],
+  [type="email"],
+  textarea {
+    width: 154%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    color: #172b4d;
+    box-sizing: border-box;
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #b3bac5;
-    padding: 15px 38px 15px 16px;
-    height: 238px;
-    margin-bottom: 27px;
-    resize: none;
+    font-size: 17px;
+    line-height: 20px;
   }
 
-  .btn-submit {
-    margin-bottom: 127px;
-    width: 100%;
+  #message {
+    height: 248px;
+  }
+
+  label {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  #error-msg {
+    color: rgba(251, 225, 225, 0.897);
+    font-size: 20px;
     text-align: center;
+    margin-left: 20%;
   }
 
   .main {

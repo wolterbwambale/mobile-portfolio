@@ -134,28 +134,34 @@
           </ul>
         </div>
       </section>       
-      <section id="contact" class="contact-me fonts">
-        <div class="c-heading">
-          <h2>Contact me</h2>
-          <p>
-            If you have an application you are interested in developing, a
+      <section id="contact" class="contact-me">
+        <div class="contact-me-h">
+          <h2 class="heading">Contact Me</h2>
+          <p class="cont-p">If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
-            to help with it
-          </p>
+            to help with it</p>
+
         </div>
-        <form action="https://formspree.io/f/meqwgpza" method="POST">
-          <label class="labels" for="names">Names</label
-          ><input type="text" id="names" name="name"  placeholder="Enter name" maxlength="30" required  />
-          <label class="labels" for="email">Email</label
-          ><input  type="email"  name="email"  id="email"  placeholder="Enter your email here" required />
-          <label class="labels" for="message">Message </label>
-          <textarea
-            id="message"  name="mail-message"  placeholder="Text your message here..."  maxlength="500
-            "  required></textarea><small></small>
-          <div class="btn-submit">
-            <button type="submit">Get in touch</button>
-          </div>
-        </form>
+        <form action="https://formspree.io/f/mlekpdnz" method="POST">
+          <ul>
+            <label>Name</label>
+              <li>
+                  <input type="text" id="name"  name="name" placeholder="Enter name" maxlength="30" required >
+              </li>
+              <label>Email</label>
+              <li>
+                  <input type="email" id="email" name="email"  placeholder=" Email here " required >
+              </li>
+              <li>
+                  <textarea id="message" name="message"  placeholder="Enter text here" maxlength="500" ></textarea>
+              </li>
+              <label>message</label>
+              <p id="error-msg"></p>
+
+                  <button class="btn-submit" type="submit">Get in Touch</button>
+              </div>
+          </ul>
+      </form>
       </section>
     </div>
   </body>
